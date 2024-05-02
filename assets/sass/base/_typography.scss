@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+
+*{
+    font-family: "PT Mono", monospace;
+}
+
+.article__text h2{
+    font-size: 100px;
+    font-weight: 500;
+
+}
+
+.article__text--subtext{
+    font-size: 30px;
+}
+
+.contacto__text{
+    font-size: 24px;
+}
+
+.contacto__text p {
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+.nav__logo--buttons a{
+    font-size: 20px;
+}

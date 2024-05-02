@@ -1,0 +1,40 @@
+.nav__logo--buttons{
+    position: absolute;
+    top: 35px;
+    left: 190px;
+}
+
+.nav__logo--buttons a{
+    color: #a2a2a2;
+    text-decoration: none;
+}
+
+.nav__logo--buttons a:hover{
+    color: black;
+}
+
+.nav__buttons{
+    position: absolute;
+    top: 35px;
+    right: 400px;
+}
+
+.nav__buttons button{
+    padding: 0.5rem 1.5rem;
+    margin-right: 30px;
+}
+
+.nav__button--blanco{
+    background-color: white;
+    border-style: solid;
+    border-color: #a2a2a2;
+    color: #a2a2a2;
+    font-size: 20px;
+}
+
+.nav__button--verde{
+    background-color: #4ca866;
+    color: white;
+    border: 0;
+    font-size: 20px;
+}

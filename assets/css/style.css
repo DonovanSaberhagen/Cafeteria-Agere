@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Mono&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main__container {
+  width: 100%;
+  position: relative;
+}
+
+.header {
+  height: 10vh;
+  width: 100%;
+}
+
+.article {
+  height: 55vh;
+  width: 100%;
+  position: relative;
+}
+
+.contacto {
+  height: 35vh;
+  width: 100%;
+  position: relative;
+}
+
+.article__foto img {
+  height: 55vh;
+}
+
+.article__foto {
+  display: inline-block;
+}
+
+.article__text {
+  display: inline-block;
+  position: absolute;
+  left: 1140px;
+  top: 50px;
+}
+
+.article__text--subtext {
+  position: absolute;
+  top: 240px;
+}
+
+.contacto__text {
+  display: inline-block;
+  position: absolute;
+  left: 50px;
+  top: 70px;
+}
+
+.contacto__map img {
+  height: 28vh;
+}
+
+.contacto__map {
+  display: inline-block;
+  position: absolute;
+  top: 35px;
+  left: 460px;
+}
+
+.contacto__foto {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+}
+
+.contacto__foto img {
+  height: 35vh;
+}
+
+.variedades {
+  position: absolute;
+  top: 467px;
+  right: 830px;
+  z-index: 1;
+}
+
+.variedades img {
+  width: 500px;
+  box-shadow: 0px 34px 0px 0px rgb(60, 145, 230);
+}
+
+.flecha {
+  position: absolute;
+  top: 450px;
+  right: 750px;
+  z-index: 1;
+}
+
+.flecha img {
+  width: 135px;
+  box-shadow: 17px 16px 0px 0px rgb(231, 166, 26);
+}
+
+.cafe {
+  position: absolute;
+  top: 597px;
+  right: 830px;
+  z-index: 1;
+}
+
+.cafe img {
+  width: 120px;
+  box-shadow: -40px 26px 0px 0px rgb(60, 145, 230);
+}
+
+* {
+  font-family: "PT Mono", monospace;
+}
+
+.article__text h2 {
+  font-size: 100px;
+  font-weight: 500;
+}
+
+.article__text--subtext {
+  font-size: 30px;
+}
+
+.contacto__text {
+  font-size: 24px;
+}
+
+.contacto__text p {
+  font-size: 15px;
+  margin-top: 25px;
+}
+
+.nav__logo--buttons a {
+  font-size: 20px;
+}
+
+.nav img {
+  height: 5vh;
+  position: absolute;
+  left: 85px;
+  top: 20px;
+}
+
+.nav {
+  display: inline-block;
+}
+
+.header {
+  position: relative;
+}
+
+.nav a {
+  padding-right: 30px;
+}
+
+.nav__logo--buttons {
+  position: absolute;
+  top: 35px;
+  left: 190px;
+}
+
+.nav__logo--buttons a {
+  color: #a2a2a2;
+  text-decoration: none;
+}
+
+.nav__logo--buttons a:hover {
+  color: black;
+}
+
+.nav__buttons {
+  position: absolute;
+  top: 35px;
+  right: 400px;
+}
+
+.nav__buttons button {
+  padding: 0.5rem 1.5rem;
+  margin-right: 30px;
+}
+
+.nav__button--blanco {
+  background-color: white;
+  border-style: solid;
+  border-color: #a2a2a2;
+  color: #a2a2a2;
+  font-size: 20px;
+}
+
+.nav__button--verde {
+  background-color: #4ca866;
+  color: white;
+  border: 0;
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
